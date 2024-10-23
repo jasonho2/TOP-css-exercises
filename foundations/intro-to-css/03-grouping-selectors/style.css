@@ -1,0 +1,21 @@
+.button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* my solution above did not use the grouping selector (e.g. class="first button") so I modified to look more like the solution's */
+
+.first, 
+.second {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}   
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: yellow;
+}
