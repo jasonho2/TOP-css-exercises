@@ -1,0 +1,20 @@
+.odd {
+    background-color: #ffc0cb;
+    font-family: Verdana, DejaVu, sans-serif;
+
+}
+
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+/* this was originally #three with class and id in the html file but modified to match the solution and the self-check notes in README */
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#four {
+    background-color: #90ee90;
+    font-weight: bold;
+}
