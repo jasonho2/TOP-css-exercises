@@ -27,3 +27,72 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* my solution */
+
+/* added this block but idk if it changed my below solution
+body {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+.header {
+  display: flex;
+  justify-content: flex-start; /* not in solution */
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 0 16px;
+}
+
+.container {
+  display: flex;
+  flex: 1; /* added this but idk if it was needed */
+}
+
+.sidebar {
+  display: flex; /* not in solution */
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start; /* not in solution */
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+
+.card {
+  max-width: 300px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto; /* not in solution */
+}
+
+ul {
+  list-style-type: none;
+  display: flex; /* not in solution */
+  flex-direction: column; /* not in solution */
+  padding: 0;
+  margin: 0;
+  gap: 16px; /* not in solution */
+}
+ 
+/* added from solution */
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 24px;
+}
